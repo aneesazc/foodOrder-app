@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: 'Smythe', cursive;
+    text-align: center;
+} 
+
+header {
+    padding: 20px 20px;
+    background-color: chocolate;
+}
+
+header h1, header h4{
+    margin: 0;
+    color: white;
+}
+
+.container {
+    width: 500px;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.main-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid grey;
+}
+
+.item-details {
+    text-align: left;
+}
+
+.item-details h3, .item-details p, .item-details h4{
+    margin: 0;
+}
+
+.img {
+    font-size: 50px;
+}
+
+.add {
+    border-radius: 50%;
+    margin-left: auto;
+    background-color: #DEDEDE;
+    border: none;
+    padding: 5px 10px;
+}
+
+.item-price, .total-price {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#complete-btn {
+    background-color: #16DB99;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* You can adjust this if you want */
+}
+
+form input,
+form button {
+    margin: 5px; /* You already had this */
+}
+
+
+
+form button {
+    display: block; /* You already had this */
+    background-color: #16DB99;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+
+form input {
+    margin: 5px;
+    text-align: center; 
+}
+
+
+.modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    height: 300px;
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 2px #666;
+    background-color: #212529;
+    color: whitesmoke;
+}
+
+.order-complete-text{
+    color: #065F46;
+    background-color: #ECFDF5;
+    padding: 20px;
+}
+
+.hidden {
+    display: none;
+}

@@ -47,6 +47,7 @@ header h1, header h4{
     background-color: #DEDEDE;
     border: none;
     padding: 5px 10px;
+    font-size: 2rem;
 }
 
 .item-price, .total-price {
